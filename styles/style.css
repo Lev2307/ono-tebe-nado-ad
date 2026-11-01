@@ -60,9 +60,10 @@
 }
 
 .main {
-    background-image: url(../images/flowers.jpg);
+    background-image: url(../images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 757px;
     display: flex;
@@ -117,14 +118,14 @@
     text-transform: uppercase;
     line-height: 22px;
     font-weight: 400;
-    word-spacing: 15px;
+    word-spacing: 18px;
 }
 
 .make__deal {
     border: 1px solid #fff;
     color: #fff;
     background-color: transparent;
-    font-family: inherit;
+    font-family: 'Raleway';
     font-size: 22px;
     text-transform: uppercase;
     font-weight: 700;
@@ -159,14 +160,14 @@
 }
 
 .lot__example:nth-child(1) {
-    background-image: url('../images/first_lot.jpg');
+    background-image: url('../images/card-lot-01.jpg');
 }
 
 .lot__example:nth-child(2) {
-    background-image: url('../images/second_lot.png');
+    background-image: url('../images/card-lot-02.jpg');
 }
 .lot__example:nth-child(3) {
-    background-image: url('../images/third_lot.jpg');
+    background-image: url('../images/card-lot-03.jpg');
 }
 
 .lot__example::before {
@@ -263,7 +264,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 210px 50px 88px;
+    padding: 190px 50px 88px;
 }
 
 .footer__links_list {
